@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 804px;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/background.img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    background-color: rgb(23, 7, 241);
+    color: rgb(255, 136, 0);
+    padding:10px;  
+}
