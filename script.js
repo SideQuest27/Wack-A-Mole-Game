@@ -35,7 +35,7 @@ function spawnMonster(){
     scoreDisplay.textContent = score;
     currentEpoch = new Date().getTime();
     let timeLeft = Math.round((endEpoch - currentEpoch)/1000)
-    if(timeLeft<=0)
+    if(timeLeft<=0 || score<=0)
     {
         postGameConfig();
     }
